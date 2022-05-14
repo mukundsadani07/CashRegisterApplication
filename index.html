@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div id="app">
+      <h1>Cash Register Manager</h1>
+      <p>
+        Enter the amount and cash given by the customer and know minimum number
+        of notes to return
+      </p>
+      <div class="bill">
+        <label for="bill" id="bill-amount" class="subheading"
+          >Bill Amount:</label
+        >
+        <input type="number" min="0" id="bill" />
+      </div>
+      <button class="next">Next</button>
+
+      <div class="cash">
+        <label for="cash" id="cash-given" class="subheading">Cash Given:</label>
+        <input type="number" min="0" id="cash" />
+      </div>
+
+      <button class="check">Check</button>
+      <div id="error-msg"></div>
+      <div class="return-table">
+        <h2 class="return">
+          Return Change
+        </h2>
+        <table>
+          <tr>
+            <th>No Of Notes</th>
+            <th class="no-of-notes"></th>
+            <th class="no-of-notes"></th>
+            <th class="no-of-notes"></th>
+            <th class="no-of-notes"></th>
+            <th class="no-of-notes"></th>
+            <th class="no-of-notes"></th>
+            <th class="no-of-notes"></th>
+          </tr>
+
+          <tr></tr>
+          <tr>
+            <td>Note</td>
+            <td>2000</td>
+            <td>500</td>
+            <td>100</td>
+            <td>20</td>
+            <td>10</td>
+            <td>5</td>
+            <td>1</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
