@@ -22,7 +22,7 @@ next.addEventListener("click", function validateBill() {
     showMessage("Invalid Bill Amount");
   }
 });
-const notes = [2000, 500, 100, 20, 10, 5, 1];
+const notes = [2000, 500, 100, 50, 20, 10, 5, 2, 1];
 
 check.addEventListener("click", function validateCash() {
   hideMessage();

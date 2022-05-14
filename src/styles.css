@@ -102,9 +102,11 @@ td {
   border-collapse: collapse;
   background-color: lightseagreen;
   color: black;
+  text-align: center;
 }
 table {
   margin: 1rem auto;
+  text-align: center;
 }
 
 td,
