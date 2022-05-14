@@ -1,0 +1,2 @@
+# CashRegisterApplication
+Created with CodeSandbox
