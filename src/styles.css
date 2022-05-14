@@ -13,7 +13,7 @@ html {
   justify-content: center;
   flex-wrap: wrap;
   background-color: #758283;
-  max-height: 100vh;
+  /* max-height: 100vh; */
   overflow-x: hidden;
 }
 
@@ -22,7 +22,7 @@ html {
   color: whitesmoke;
   min-width: 50%;
   border-radius: 0 0 30px 30px;
-  padding: 2em;
+  padding: 2em 1em;
 }
 #app h1 {
   text-align: center;
@@ -89,6 +89,8 @@ button,
 }
 
 .return-table {
+  padding: 0;
+  margin: 0;
   display: none;
 }
 
@@ -97,7 +99,8 @@ th,
 tr,
 td {
   /* border: 2px solid black; */
-  padding: 0.2rem 0.3rem;
+  width: auto;
+  padding: 0.3rem 0.2rem;
   margin: 0;
   border-collapse: collapse;
   background-color: lightseagreen;
@@ -107,6 +110,7 @@ td {
 table {
   margin: 1rem auto;
   text-align: center;
+  padding: 0;
 }
 
 td,
